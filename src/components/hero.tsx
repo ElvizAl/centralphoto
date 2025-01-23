@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { TextAnimate } from "./ui/text-animate";
 
 export default function Hero() {
   return (
@@ -21,9 +20,9 @@ export default function Hero() {
         {/* Teks di bawah lingkaran */}
       </div>
       <div className="max-w-md text-center mx-auto justify-center flex mt-4 px-6">
-      <TextAnimate animation="slideLeft" by="word" className="text-white" duration={1000} delay={30}>
+      <p className="text-white" >
          Kami menyediakan berbagai layanan seperti cetak foto dan canvas cetak besaran cetak banner bingkai foto album foto album kolase Dll.
-    </TextAnimate>
+    </p>
       </div>
     </div>
   );
