@@ -7,9 +7,10 @@ import Testimonial from "./testimonial"
 const testimonials = [
   { id: 1, text: "This product changed my life!", author: "John Doe" },
   { id: 2, text: "Absolutely brutal. I love it.", author: "Jane Smith" },
-  { id: 3, text: "Raw power and functionality.", author: "Bob Johnson" },
-  { id: 4, text: "Unapologetically effective.", author: "Alice Brown" },
-  { id: 5, text: "No frills, just results.", author: "Charlie Davis" },
+  { id: 3, text: "Tempat cetak foto lengkap dgn hasil yg Bagus, pelayanan ramah, lokasi dan parkir luas.", author: "Danny ram" },
+  { id: 4, text: "Hasil fotonya gak ngecawain bagus, jernih dan juga rapih. Ter the best", author: "Nurcahya ningsih" },
+  { id: 5, text: "Hasil cetakannya bagus, cepat pelayanan nya dan puas hasilnya..", author: "Ferry anwar" },
+  { id: 6, text: "Cetak foto paling bagus menurut aku dan pengerjaanya cepet pelayanan bagus", author: "Dillawaty waty" },
 ]
 
 const TestimonialSlider: React.FC = () => {

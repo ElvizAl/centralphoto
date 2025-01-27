@@ -7,7 +7,7 @@ interface HomeProps {
 const Container: React.FC<HomeProps> = ({ children }) => {
   return (
     <div className="w-full h-full ">
-      <div className="max-w-md mx-auto h-full bg-gradient-to-b from-blue-500 via-purple-600 to-purple-700">
+      <div className="max-w-md mx-auto h-full bg-blue-400">
         {children}
       </div>
     </div>
